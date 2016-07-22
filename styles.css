@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 310px;
+  height: auto;
+  border: 1px solid #deb887;
+  padding: 10px;
+  box-shadow: 5px 7px 10px 2px #a9a9a9;
+  margin: 25px;
+  background-color: #deb887;
+}
+
+.animal h3 {
+  font-size: 35px;
+  margin: 0;
+  padding: 10px;
+}
+
+.animal img {
+  width: 300px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.animal-info {
+  position: relative;
+  border: 3px double #000;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  background-color: #ffebcd;
+}
+
+.interesting-fact, 
+.text {
+  font-style: italic;
+}
+
+.facts-list{
+  list-style: none;   /*removes the bullet points for the list items*/
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  font-weight: bold;
+}
